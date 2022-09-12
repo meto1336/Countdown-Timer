@@ -1,0 +1,8 @@
+{
+    "name": "Timer",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/"
+  }
