@@ -127,7 +127,7 @@ function startTimer(){
             
         timerStarted = true;
         if(timerStarted){
-            swal("You have successfully started the timer", "", "success")
+            //swal("You have successfully started the timer", "", "success")
             document.getElementById('minutes_timer').disabled  = true;
             document.getElementById('seconds_timer').disabled  = true;
         }
@@ -143,7 +143,7 @@ function startTimer(){
 
 function stopTimer(){
     clearInterval(func)
-    swal("The timer has been paused", "", "info")
+    //swal("The timer has been paused", "", "info")
     timerStarted = false
 }
 
